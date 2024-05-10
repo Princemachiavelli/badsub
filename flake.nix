@@ -15,6 +15,7 @@
         mkdir -p $out
         cp ./submodule_a/README.md $out/SUBMODULE_A_README.md 
 	cp ${sub1}/submodule_a/README.md $out/sub1_readme.md
+	cp ${sub1}/submodule_a/nested_sub/README.md $out/nested_sub_readme.md
       '';
     };
 
