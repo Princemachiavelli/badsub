@@ -1,4 +1,4 @@
 [submodule "submodule_a"]
 	path = submodule_a
-	url = ../badsub.git
+	url = ../submodule_a.git
         branch = branchc
