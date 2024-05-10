@@ -28,6 +28,34 @@
         "type": "indirect"
       }
     },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1707451808,
+        "narHash": "sha256-UwDBUNHNRsYKFJzyTMVMTF5qS4xeJlWoeyJf+6vvamU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "442d407992384ed9c0e6d352de75b69079904e4e",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_4": {
+      "locked": {
+        "lastModified": 1707451808,
+        "narHash": "sha256-UwDBUNHNRsYKFJzyTMVMTF5qS4xeJlWoeyJf+6vvamU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "442d407992384ed9c0e6d352de75b69079904e4e",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
@@ -36,7 +64,49 @@
     },
     "sub1": {
       "inputs": {
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_2",
+        "sub1": "sub1_2"
+      },
+      "locked": {
+        "lastModified": 1715364835,
+        "narHash": "sha256-eCUs6v5SjP74jrFIXM3lW3zPqm4RZXWmO2pemPqKg00=",
+        "ref": "refs/heads/main",
+        "rev": "6ab009abadbdab01fbca01fe6e30fb696bfe783a",
+        "revCount": 8,
+        "submodules": false,
+        "type": "git",
+        "url": "ssh://git@github.com/Princemachiavelli/badsub"
+      },
+      "original": {
+        "submodules": false,
+        "type": "git",
+        "url": "ssh://git@github.com/Princemachiavelli/badsub"
+      }
+    },
+    "sub1_2": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_3",
+        "sub1": "sub1_3"
+      },
+      "locked": {
+        "lastModified": 1715364835,
+        "narHash": "sha256-Coi/8c3aL4zetZlGALe2r49Jl3Ok5BTNRKCJPHNb0os=",
+        "ref": "refs/heads/main",
+        "rev": "6ab009abadbdab01fbca01fe6e30fb696bfe783a",
+        "revCount": 8,
+        "submodules": true,
+        "type": "git",
+        "url": "ssh://git@github.com/Princemachiavelli/badsub"
+      },
+      "original": {
+        "submodules": true,
+        "type": "git",
+        "url": "ssh://git@github.com/Princemachiavelli/badsub"
+      }
+    },
+    "sub1_3": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_4"
       },
       "locked": {
         "lastModified": 1715363823,

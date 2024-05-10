@@ -2,7 +2,7 @@
   description = "A very basic flake";
 
   inputs = {
-    sub1.url = "git+ssh://git@github.com/Princemachiavelli/badsub?submodules=1";
+    sub1.url = "git+ssh://git@github.com/Princemachiavelli/badsub?submodules=1?rev=6ab009abadbdab01fbca01fe6e30fb696bfe783a";
   };
 
   outputs = { self, nixpkgs, sub1 }: {
