@@ -69,16 +69,17 @@
       },
       "locked": {
         "lastModified": 1715364835,
-        "narHash": "sha256-eCUs6v5SjP74jrFIXM3lW3zPqm4RZXWmO2pemPqKg00=",
+        "narHash": "sha256-Coi/8c3aL4zetZlGALe2r49Jl3Ok5BTNRKCJPHNb0os=",
         "ref": "refs/heads/main",
         "rev": "6ab009abadbdab01fbca01fe6e30fb696bfe783a",
         "revCount": 8,
-        "submodules": false,
+        "submodules": true,
         "type": "git",
         "url": "ssh://git@github.com/Princemachiavelli/badsub"
       },
       "original": {
-        "submodules": false,
+        "rev": "6ab009abadbdab01fbca01fe6e30fb696bfe783a",
+        "submodules": true,
         "type": "git",
         "url": "ssh://git@github.com/Princemachiavelli/badsub"
       }
